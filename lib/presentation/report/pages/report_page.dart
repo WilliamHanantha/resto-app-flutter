@@ -504,8 +504,7 @@ class _ReportPageState extends State<ReportPage> {
                               const Divider(),
                               const SpaceHeight(8),
                               // REVENUE INFO
-                              SizedBox(
-                                height: 478,
+                              Expanded(
                                 child: ScrollBarView(
                                   scrollController: _scrollController,
                                   child: SingleChildScrollView(

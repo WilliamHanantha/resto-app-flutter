@@ -32,33 +32,36 @@ class _CustomTabBarState extends State<CustomTabBar> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        Row(
-          children: List.generate(
-            widget.tabTitles.length,
-            (index) => GestureDetector(
-              onTap: () {
-                setState(() {
-                  _selectedIndex = index;
-                });
-              },
-              child: Container(
-                padding: const EdgeInsets.symmetric(vertical: 14),
-                margin: const EdgeInsets.only(right: 32),
-                decoration: BoxDecoration(
-                  border: _selectedIndex == index
-                      ? const Border(
-                          bottom: BorderSide(
-                            width: 3.0,
-                            color: AppColors.primary,
-                          ),
-                        )
-                      : null,
-                ),
-                child: Text(
-                  widget.tabTitles[index],
-                  style: const TextStyle(
-                    color: AppColors.primary,
-                    fontWeight: FontWeight.bold,
+        SingleChildScrollView(
+          scrollDirection: Axis.horizontal,
+          child: Row(
+            children: List.generate(
+              widget.tabTitles.length,
+              (index) => GestureDetector(
+                onTap: () {
+                  setState(() {
+                    _selectedIndex = index;
+                  });
+                },
+                child: Container(
+                  padding: const EdgeInsets.symmetric(vertical: 14),
+                  margin: const EdgeInsets.only(right: 32),
+                  decoration: BoxDecoration(
+                    border: _selectedIndex == index
+                        ? const Border(
+                            bottom: BorderSide(
+                              width: 3.0,
+                              color: AppColors.primary,
+                            ),
+                          )
+                        : null,
+                  ),
+                  child: Text(
+                    widget.tabTitles[index],
+                    style: const TextStyle(
+                      color: AppColors.primary,
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
                 ),
               ),

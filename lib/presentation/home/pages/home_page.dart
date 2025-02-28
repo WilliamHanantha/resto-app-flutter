@@ -278,11 +278,19 @@ class _HomePageState extends State<HomePage> {
                                           physics:
                                               const NeverScrollableScrollPhysics(),
                                           gridDelegate:
-                                              const SliverGridDelegateWithFixedCrossAxisCount(
+                                              SliverGridDelegateWithFixedCrossAxisCount(
                                             childAspectRatio: 0.85,
                                             crossAxisCount: 3,
-                                            crossAxisSpacing: 30.0,
-                                            mainAxisSpacing: 30.0,
+                                            crossAxisSpacing:
+                                                MediaQuery.of(context)
+                                                        .size
+                                                        .width *
+                                                    0.02,
+                                            mainAxisSpacing:
+                                                MediaQuery.of(context)
+                                                        .size
+                                                        .height *
+                                                    0.03,
                                           ),
                                           itemBuilder: (context, index) =>
                                               ProductCard(
@@ -301,11 +309,19 @@ class _HomePageState extends State<HomePage> {
                                           physics:
                                               const NeverScrollableScrollPhysics(),
                                           gridDelegate:
-                                              const SliverGridDelegateWithFixedCrossAxisCount(
+                                              SliverGridDelegateWithFixedCrossAxisCount(
                                             childAspectRatio: 0.85,
                                             crossAxisCount: 3,
-                                            crossAxisSpacing: 30.0,
-                                            mainAxisSpacing: 30.0,
+                                            crossAxisSpacing:
+                                                MediaQuery.of(context)
+                                                        .size
+                                                        .width *
+                                                    0.02,
+                                            mainAxisSpacing:
+                                                MediaQuery.of(context)
+                                                        .size
+                                                        .height *
+                                                    0.03,
                                           ),
                                           itemBuilder: (context, index) =>
                                               ProductCard(
@@ -350,11 +366,19 @@ class _HomePageState extends State<HomePage> {
                                           physics:
                                               const NeverScrollableScrollPhysics(),
                                           gridDelegate:
-                                              const SliverGridDelegateWithFixedCrossAxisCount(
+                                              SliverGridDelegateWithFixedCrossAxisCount(
                                             childAspectRatio: 0.85,
                                             crossAxisCount: 3,
-                                            crossAxisSpacing: 30.0,
-                                            mainAxisSpacing: 30.0,
+                                            crossAxisSpacing:
+                                                MediaQuery.of(context)
+                                                        .size
+                                                        .width *
+                                                    0.02,
+                                            mainAxisSpacing:
+                                                MediaQuery.of(context)
+                                                        .size
+                                                        .height *
+                                                    0.03,
                                           ),
                                           itemBuilder: (context, index) =>
                                               ProductCard(
@@ -383,11 +407,19 @@ class _HomePageState extends State<HomePage> {
                                           physics:
                                               const NeverScrollableScrollPhysics(),
                                           gridDelegate:
-                                              const SliverGridDelegateWithFixedCrossAxisCount(
+                                              SliverGridDelegateWithFixedCrossAxisCount(
                                             childAspectRatio: 0.85,
                                             crossAxisCount: 3,
-                                            crossAxisSpacing: 30.0,
-                                            mainAxisSpacing: 30.0,
+                                            crossAxisSpacing:
+                                                MediaQuery.of(context)
+                                                        .size
+                                                        .width *
+                                                    0.02,
+                                            mainAxisSpacing:
+                                                MediaQuery.of(context)
+                                                        .size
+                                                        .height *
+                                                    0.03,
                                           ),
                                           itemBuilder: (context, index) =>
                                               ProductCard(
@@ -435,11 +467,19 @@ class _HomePageState extends State<HomePage> {
                                           physics:
                                               const NeverScrollableScrollPhysics(),
                                           gridDelegate:
-                                              const SliverGridDelegateWithFixedCrossAxisCount(
+                                              SliverGridDelegateWithFixedCrossAxisCount(
                                             childAspectRatio: 0.85,
                                             crossAxisCount: 3,
-                                            crossAxisSpacing: 30.0,
-                                            mainAxisSpacing: 30.0,
+                                            crossAxisSpacing:
+                                                MediaQuery.of(context)
+                                                        .size
+                                                        .width *
+                                                    0.02,
+                                            mainAxisSpacing:
+                                                MediaQuery.of(context)
+                                                        .size
+                                                        .height *
+                                                    0.03,
                                           ),
                                           itemBuilder: (context, index) =>
                                               ProductCard(
@@ -468,11 +508,19 @@ class _HomePageState extends State<HomePage> {
                                           physics:
                                               const NeverScrollableScrollPhysics(),
                                           gridDelegate:
-                                              const SliverGridDelegateWithFixedCrossAxisCount(
+                                              SliverGridDelegateWithFixedCrossAxisCount(
                                             childAspectRatio: 0.85,
                                             crossAxisCount: 3,
-                                            crossAxisSpacing: 30.0,
-                                            mainAxisSpacing: 30.0,
+                                            crossAxisSpacing:
+                                                MediaQuery.of(context)
+                                                        .size
+                                                        .width *
+                                                    0.02,
+                                            mainAxisSpacing:
+                                                MediaQuery.of(context)
+                                                        .size
+                                                        .height *
+                                                    0.03,
                                           ),
                                           itemBuilder: (context, index) =>
                                               ProductCard(
@@ -520,11 +568,19 @@ class _HomePageState extends State<HomePage> {
                                           physics:
                                               const NeverScrollableScrollPhysics(),
                                           gridDelegate:
-                                              const SliverGridDelegateWithFixedCrossAxisCount(
+                                              SliverGridDelegateWithFixedCrossAxisCount(
                                             childAspectRatio: 0.85,
                                             crossAxisCount: 3,
-                                            crossAxisSpacing: 30.0,
-                                            mainAxisSpacing: 30.0,
+                                            crossAxisSpacing:
+                                                MediaQuery.of(context)
+                                                        .size
+                                                        .width *
+                                                    0.02,
+                                            mainAxisSpacing:
+                                                MediaQuery.of(context)
+                                                        .size
+                                                        .height *
+                                                    0.03,
                                           ),
                                           itemBuilder: (context, index) =>
                                               ProductCard(
@@ -553,11 +609,19 @@ class _HomePageState extends State<HomePage> {
                                           physics:
                                               const NeverScrollableScrollPhysics(),
                                           gridDelegate:
-                                              const SliverGridDelegateWithFixedCrossAxisCount(
+                                              SliverGridDelegateWithFixedCrossAxisCount(
                                             childAspectRatio: 0.85,
                                             crossAxisCount: 3,
-                                            crossAxisSpacing: 30.0,
-                                            mainAxisSpacing: 30.0,
+                                            crossAxisSpacing:
+                                                MediaQuery.of(context)
+                                                        .size
+                                                        .width *
+                                                    0.02,
+                                            mainAxisSpacing:
+                                                MediaQuery.of(context)
+                                                        .size
+                                                        .height *
+                                                    0.03,
                                           ),
                                           itemBuilder: (context, index) =>
                                               ProductCard(
@@ -605,11 +669,19 @@ class _HomePageState extends State<HomePage> {
                                           physics:
                                               const NeverScrollableScrollPhysics(),
                                           gridDelegate:
-                                              const SliverGridDelegateWithFixedCrossAxisCount(
+                                              SliverGridDelegateWithFixedCrossAxisCount(
                                             childAspectRatio: 0.85,
                                             crossAxisCount: 3,
-                                            crossAxisSpacing: 30.0,
-                                            mainAxisSpacing: 30.0,
+                                            crossAxisSpacing:
+                                                MediaQuery.of(context)
+                                                        .size
+                                                        .width *
+                                                    0.02,
+                                            mainAxisSpacing:
+                                                MediaQuery.of(context)
+                                                        .size
+                                                        .height *
+                                                    0.03,
                                           ),
                                           itemBuilder: (context, index) =>
                                               ProductCard(
@@ -638,11 +710,19 @@ class _HomePageState extends State<HomePage> {
                                           physics:
                                               const NeverScrollableScrollPhysics(),
                                           gridDelegate:
-                                              const SliverGridDelegateWithFixedCrossAxisCount(
+                                              SliverGridDelegateWithFixedCrossAxisCount(
                                             childAspectRatio: 0.85,
                                             crossAxisCount: 3,
-                                            crossAxisSpacing: 30.0,
-                                            mainAxisSpacing: 30.0,
+                                            crossAxisSpacing:
+                                                MediaQuery.of(context)
+                                                        .size
+                                                        .width *
+                                                    0.02,
+                                            mainAxisSpacing:
+                                                MediaQuery.of(context)
+                                                        .size
+                                                        .height *
+                                                    0.03,
                                           ),
                                           itemBuilder: (context, index) =>
                                               ProductCard(
@@ -690,11 +770,19 @@ class _HomePageState extends State<HomePage> {
                                           physics:
                                               const NeverScrollableScrollPhysics(),
                                           gridDelegate:
-                                              const SliverGridDelegateWithFixedCrossAxisCount(
+                                              SliverGridDelegateWithFixedCrossAxisCount(
                                             childAspectRatio: 0.85,
                                             crossAxisCount: 3,
-                                            crossAxisSpacing: 30.0,
-                                            mainAxisSpacing: 30.0,
+                                            crossAxisSpacing:
+                                                MediaQuery.of(context)
+                                                        .size
+                                                        .width *
+                                                    0.02,
+                                            mainAxisSpacing:
+                                                MediaQuery.of(context)
+                                                        .size
+                                                        .height *
+                                                    0.03,
                                           ),
                                           itemBuilder: (context, index) =>
                                               ProductCard(
@@ -723,11 +811,19 @@ class _HomePageState extends State<HomePage> {
                                           physics:
                                               const NeverScrollableScrollPhysics(),
                                           gridDelegate:
-                                              const SliverGridDelegateWithFixedCrossAxisCount(
+                                              SliverGridDelegateWithFixedCrossAxisCount(
                                             childAspectRatio: 0.85,
                                             crossAxisCount: 3,
-                                            crossAxisSpacing: 30.0,
-                                            mainAxisSpacing: 30.0,
+                                            crossAxisSpacing:
+                                                MediaQuery.of(context)
+                                                        .size
+                                                        .width *
+                                                    0.02,
+                                            mainAxisSpacing:
+                                                MediaQuery.of(context)
+                                                        .size
+                                                        .height *
+                                                    0.03,
                                           ),
                                           itemBuilder: (context, index) =>
                                               ProductCard(
@@ -843,8 +939,8 @@ class _HomePageState extends State<HomePage> {
                                       child: Text('No Items'),
                                     );
                                   }
-                                  return SizedBox(
-                                    height: 239,
+                                  return Expanded(
+                                    // height: 239,
                                     child: ScrollBarView(
                                       scrollController: _scrollController,
                                       child: ListView.separated(

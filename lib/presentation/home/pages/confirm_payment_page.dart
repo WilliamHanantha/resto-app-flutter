@@ -163,8 +163,7 @@ class _ConfirmPaymentPageState extends State<ConfirmPaymentPage> {
                                     child: Text('No Items'),
                                   );
                                 }
-                                return SizedBox(
-                                  height: 251,
+                                return Expanded(
                                   child: ScrollBarView(
                                     scrollController: _scrollController,
                                     child: ListView.separated(

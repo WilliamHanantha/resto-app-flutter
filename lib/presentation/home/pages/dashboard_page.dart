@@ -54,8 +54,8 @@ class _DashboardPageState extends State<DashboardPage> {
               child: ClipRRect(
                 borderRadius:
                     const BorderRadius.horizontal(right: Radius.circular(16.0)),
-                child: SizedBox(
-                  height: context.deviceHeight - 20.0,
+                child: Expanded(
+                  // height: context.deviceHeight - 20.0,
                   child: ColoredBox(
                     color: AppColors.primary,
                     child: Column(
